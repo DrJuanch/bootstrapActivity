@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.navBar {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profilePicture-userName-section {
+    background-color: #F2B33D;
+    width: 25%;
+    border-radius: 0 10px 10px 0;
+}
+
+.profilePicture-userName-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+}
+
+.profilePicture {
+    height: 4rem;
+    width: 4.3rem;
+    border-radius: 50%;
+    position: relative;
+    left: 8%;
+}
+
+.userNameContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F28729;
+    width: 68%;
+    border-radius: 0 10px 10px 0;
+}
+
+.hamburgerMenuContainer {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.hamburgerMenu {
+    background-color: #F2B33D;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.hamburgerMenu:hover {
+    background-color: #BF5D24;
+}
+
+.hamburgerMenuIcon {
+    width: 3rem;
+    border-radius: 10px;
+}
+
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menuContainer {
+    background-color: #F28729;
+    height: 85%;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.listItemContainer{
+    padding: 0;
+    width: 80%;
+}
+
+.homeText{
+    margin-top: 3.5rem;
+}
+
+.itemMenu{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #BF5D24;
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.circleIcon{
+    background-color: black;
+    border-radius: 50%;
+    display:block;
+    height: 0.6rem;
+    width: 0.6rem;
+    justify-self: center;
+    align-self: center;
+}
+.textItem{
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.menuDisplayContainer {
+    display: grid;
+    width: 75%;
+    height: 90%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card{
+    justify-self: center;
+    align-self: center;
+    box-shadow: 10px 10px 45px 5px black ;
+    width: 75%;
+    text-align: center;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titleCardContainer{
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+
+.cardImage{
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem 0;
+}
+
+.cardButton{
+    background-color: #401801;
+}
+
+.cardButton:hover{
+    background-color: #BF5D24;
+}
